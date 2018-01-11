@@ -5,6 +5,8 @@ class Solution:
         Input:  self (class object reference to itself)
                 prices (list of stock prices, with indexes corresponding to days)
         Output: maximum profit obtainable through buying and selling stocks
+        
+        Stats: 94ms, passes 194/194 test cases
         """
         
         maxP = 0 #maximum profit
