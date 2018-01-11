@@ -5,7 +5,9 @@ class Solution:
         Input: g (array of greedy children containing greed levels)
                s (array of cookie size)
         Output: maximum number of children that can be satisfied
+        Stats: 152ms, passes 21/21 test casses
         """
+        
         cc = 0 #number of satisfied children
         g = sorted(g) #sort greedy children smalles to largest
         s = sorted(s) #sort cookie sizes
